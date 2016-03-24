@@ -1,3 +1,6 @@
 [submodule "todo-js"]
 	path = todo-js
 	url = https://github.com/wavejs/todo-js.git
+[submodule "demo-js"]
+	path = demo-js
+	url = https://github.com/wavejs/demo-js.git
