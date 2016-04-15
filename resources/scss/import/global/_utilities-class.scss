@@ -1,0 +1,122 @@
+// 
+// Display content
+// 
+.hide {
+	display: none !important;
+}
+.show {
+	display: block !important;
+}
+.sr-only {
+	@include sr-only;
+}
+
+
+// 
+// Float
+// 
+.clearfix {
+	@include clearfix;
+}
+.pull-right {
+	float: right !important;
+}
+.pull-left {
+	float: left !important;
+}
+.cetnter-block {
+	@include center-block;
+}
+
+
+// 
+// Font weight
+// 
+.text-lighter {
+	font-weight: 300;
+}
+.text-normal {
+	font-weight: 400;
+}
+.text-bold {
+	font-weight: 500;
+}
+
+
+//
+//Font size
+//
+h1,
+.h1 {
+	font-size: $h1;
+}
+h2,
+.h2 {
+	font-size: $h2;
+}
+h3,
+.h3 {
+	font-size: $h3;
+}
+.text-sm {
+	font-size: $font-sm;
+}
+.text-md {
+	font-size: $font-md;
+}
+.text-lg {
+	font-size: $font-lg;
+}
+.text-xl {
+	font-size: $font-xl;
+}
+
+
+// 
+// Text align
+// 
+.text-right {
+	text-align: right !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-nowrap {
+	white-space: nowrap !important;
+}
+
+
+// 
+// Text etc
+// 
+.text-underline {
+	text-decoration: underline;
+}
+
+
+// 
+// Text color
+// @mixin text-color-vatiant 를 사용하여 클래스와 색상 지정
+// 
+@mixin text-color-vatiant($parent, $color) {
+	#{$parent} {
+		color: $color !important;
+	}
+	a#{$parent}:hover {
+		color: darken($color, 15%) !important;
+	}
+}
+@include text-color-vatiant('.text-black', $black);
+@include text-color-vatiant('.text-gray-dark', $gray-dark);
+@include text-color-vatiant('.text-gray', $gray);
+@include text-color-vatiant('.text-gray-light', $gray-light);
+
+@include text-color-vatiant('.text-green', $green);
+@include text-color-vatiant('.text-blue', $blue);
+@include text-color-vatiant('.text-purple', $purple);
+@include text-color-vatiant('.text-orange', $orange);
+@include text-color-vatiant('.text-red', $red);
+@include text-color-vatiant('.text-yellow', $yellow);

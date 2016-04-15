@@ -1,0 +1,45 @@
+//== Scaffolding variables
+//
+//## 기본 스타일 변수
+$html-font-size:	10px;
+
+$body-bg-color:		$bg-gray-dark;
+$body-font-family:	$noto;
+$body-font-size:	$font-md;
+$body-line-height:	1.5;
+$body-color:		$gray-dark;
+
+$link-color-basic:		$link;
+
+
+//== Scaffolding style
+//
+//## 기본 스타일 정의
+*,
+:before,
+:after {
+	@include box-sizing(border-box);
+}
+
+html {
+	font-size: $html-font-size;
+}
+
+body {
+	background-color: $body-bg-color;
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	color: $body-color;
+}
+
+a {
+	color: $link-color-basic;
+	text-decoration: none;
+	@include transition(all .25s ease);
+
+	&:hover,
+	&:focus {
+		color: darken($link-color-basic, 15%);
+	}
+}

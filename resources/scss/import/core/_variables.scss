@@ -1,0 +1,39 @@
+//
+// Color
+// 대표 색상 및 회색 계열 색상
+// 
+$link:			#337ab7 !default;
+
+$black:			#111 !default;
+$gray-dark:		#333 !default;
+$gray:			#666 !default;
+$gray-light:	#888 !default;
+
+$green:			#1abc9c !default;
+$blue:			#3498db !default;
+$purple:		#9b59b6 !default;
+$orange:		#e67e22 !default;
+$red:			#e74c3c !default;
+$yellow:		#d9a81d !default;
+
+$bg-gray-dark:	#f9f9f9 !default;
+
+
+//
+// Typography
+// 폰트 관련된 타입
+// 
+$noto:			'noto sans', sans-serif !default;
+
+$lighter:		300 !default;
+$normal:		400 !default;
+$bold:			500 !default;
+
+$h1:			4.8rem !default;
+$h2:			3.6rem !default;
+$h3:			2.4rem !default;
+
+$font-sm:		1.2rem !default;
+$font-md:		1.4rem !default;
+$font-lg:		1.6rem !default;
+$font-xl:		1.8rem !default;

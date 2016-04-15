@@ -1,0 +1,9 @@
+//== Add reset
+//
+//## nomalize.css 를 기반으로 사이트에 맞춰 reset 추가
+ul,
+ol {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}

@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+// Core Variables and Mixins
+@import 'import/core/variables';
+@import 'import/core/mixin';
+
+// Web font
+@import 'import/web-fonts/noto-sans';
+
+// Global style
+@import 'import/global/normalize';
+@import 'import/global/add-reset';
+@import 'import/global/scaffolding';
+@import 'import/global/utilities-class';
+
+// UI Kit
+
+// Common style
+@import 'import/common/layout';
+
+// Pages style
