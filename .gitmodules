@@ -1,3 +1,6 @@
 [submodule "todo-js"]
 	path = todo-js
 	url = https://github.com/wavejs/todo-js.git
+[submodule "jquery-dropdown"]
+	path = jquery-dropdown
+	url = https://github.com/Jangharyun/jquery-dropdown.git
