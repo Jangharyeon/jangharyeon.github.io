@@ -44,10 +44,10 @@
   vertical-align: baseline !important;
   width: auto !important;
   box-sizing: content-box !important;
-  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+  font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace !important;
   font-weight: normal !important;
   font-style: normal !important;
-  font-size: 1em !important;
+  font-size: 14px !important;
   min-height: inherit !important;
   min-height: auto !important;
 }
@@ -236,13 +236,16 @@
  * Dual licensed under the MIT and GPL licenses.
  */
 .syntaxhighlighter {
-  background-color: #2d374b !important;
+  border-width:0 1px 1px;
+  border-style:solid;
+  border-color:#ccc;
+  background-color: #f7f7f9 !important;
 }
 .syntaxhighlighter .line.alt1 {
-  background-color: #2d374b !important;
+  background-color: #f7f7f9 !important;
 }
 .syntaxhighlighter .line.alt2 {
-  background-color: #2d374b !important;
+  background-color: #f7f7f9 !important;
 }
 .syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
   background-color: #323e41 !important;
@@ -292,13 +295,13 @@
   color: #e0e8ff !important;
 }
 .syntaxhighlighter .plain, .syntaxhighlighter .plain a {
-  color: #f2f2f2 !important;
+  color: #111 !important;
 }
 .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
   color: #999 !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
-  color: #ffaaaa !important;
+  color: #739200 !important;
 }
 .syntaxhighlighter .keyword {
   color: #8ccffb !important;
