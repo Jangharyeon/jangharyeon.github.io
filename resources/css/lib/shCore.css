@@ -257,6 +257,7 @@
   color: #b9bdb6 !important;
 }
 .syntaxhighlighter .gutter {
+  display:none !important;
   color: #888 !important;
 }
 .syntaxhighlighter .gutter .line {
