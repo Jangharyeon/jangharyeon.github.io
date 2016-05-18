@@ -644,4 +644,21 @@ a.text-yellow:hover {
   color: #967414 !important;
 }
 
+.ex.example {
+  position: relative;
+  padding: 45px 15px 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.ex.example:before {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #666;
+  content: 'EXAMPLE';
+}
+
 /*# sourceMappingURL=markone.css.map */
