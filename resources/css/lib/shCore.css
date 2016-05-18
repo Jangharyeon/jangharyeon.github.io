@@ -32,7 +32,7 @@
   float: none !important;
   height: auto !important;
   left: auto !important;
-  line-height: 1.2em !important;
+  line-height: 1.3em !important;
   margin: 0 !important;
   outline: 0 !important;
   overflow: visible !important;
@@ -133,6 +133,7 @@
   display: inline !important;
 }
 .syntaxhighlighter .toolbar {
+  display:none !important;
   position: absolute !important;
   right: 1px !important;
   top: 1px !important;
