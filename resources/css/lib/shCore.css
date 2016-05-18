@@ -55,7 +55,6 @@
 .syntaxhighlighter {
   width: 100% !important;
   padding: 1em 0 !important;
-  position: relative !important;
   overflow: auto !important;
   font-size: 1em !important;
 }
@@ -80,9 +79,6 @@
 }
 .syntaxhighlighter table td.code {
   width: 100% !important;
-}
-.syntaxhighlighter table td.code .container {
-  position: relative !important;
 }
 .syntaxhighlighter table td.code .container textarea {
   box-sizing: border-box !important;
