@@ -4,3 +4,6 @@
 [submodule "jquery-dropdown"]
 	path = jquery-dropdown
 	url = https://github.com/Jangharyeon/jquery-dropdown.git
+[submodule "jquery-ellipsis"]
+	path = jquery-ellipsis
+	url = https://github.com/Jangharyeon/jquery-ellipsis.git
