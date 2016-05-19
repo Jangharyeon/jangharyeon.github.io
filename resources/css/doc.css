@@ -298,10 +298,10 @@
   color: #999 !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
-  color: #739200 !important;
+  color: #ff0055 !important;
 }
 .syntaxhighlighter .keyword {
-  color: #8ccffb !important;
+  color: #111 !important;
 }
 .syntaxhighlighter .preprocessor {
   color: #435a5f !important;
@@ -324,7 +324,7 @@
   background-color: none !important;
 }
 .syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
-  color: #a7fb43 !important;
+  color: #739200 !important;
 }
 .syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
   color: white !important;
