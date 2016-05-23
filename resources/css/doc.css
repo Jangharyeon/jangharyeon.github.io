@@ -80,6 +80,7 @@
   width: 100% !important;
 }
 .syntaxhighlighter table td.code .container textarea {
+  display:none !important;
   box-sizing: border-box !important;
   position: absolute !important;
   left: 0 !important;
