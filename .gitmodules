@@ -7,3 +7,6 @@
 [submodule "jquery-ellipsis"]
 	path = jquery-ellipsis
 	url = https://github.com/Jangharyeon/jquery-ellipsis.git
+[submodule "jquery-onScreen"]
+	path = jquery-onScreen
+	url = http://github.com/Jangharyeon/jquery-onScreen.git
